@@ -87,6 +87,8 @@ a {
 a:hover {
   background: var(--brand-gradient);
   color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
 }
 
 /* Esse trecho remove os marcadores das listas que têm o atributo role="list" no HTML.
